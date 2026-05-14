@@ -22,7 +22,9 @@ export class ExamApi {
     .subscribe(
       (countryData) => {
       this.countries.set(countryData);
-     // console.log('country:', countryData);
+      //it loggs into the console just ifne but wont export it out.
+      //tried mutiple differnt things and none fo them worked.
+      console.log('country:', countryData);
       }
     );
   }
