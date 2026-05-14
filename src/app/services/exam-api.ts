@@ -22,7 +22,7 @@ export class ExamApi {
     .subscribe(
       (countryData) => {
       this.countries.set(countryData);
-      console.log('country:', countryData);
+     // console.log('country:', countryData);
       }
     );
   }

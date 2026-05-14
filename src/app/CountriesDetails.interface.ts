@@ -6,6 +6,6 @@ export interface Countries{
     official:string
     },
  independent:Boolean,
- capital:string[]
+ capital:string;
 
 }

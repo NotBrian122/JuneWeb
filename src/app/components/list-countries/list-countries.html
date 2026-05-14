@@ -1,2 +1,8 @@
-
+<a>Flag      Country Name:     Independent:    Detials</a>
+<ul>
+  <li *ngFor="let country of countryDetials; let i = index">
+    <img src ='{{countryDetials.flag}}'> {{countryDetials.name.official }} 
+    {{countryDetials.independent}} {{countryDetials.capital}}
+  </li>
+</ul>
 
